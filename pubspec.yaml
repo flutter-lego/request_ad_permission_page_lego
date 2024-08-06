@@ -1,0 +1,31 @@
+name: request_ad_permission_page_lego
+description: "beautify the request ad permission page"
+#publish_to: 'none'
+repository: https://github.com/flutter-lego/insta_style_feed_lego
+
+version: 1.0.1
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  june_flow_util: #@add
+  styled_widget: #@add
+  modal_bottom_sheet: #@add
+  gap: #@add
+  flutter_svg: #@add
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints:
+
+flutter:
+  assets:
+    - assets/lego/request_ad_permission_page_lego/
+  uses-material-design: true
+
+topics:
+  - lego
